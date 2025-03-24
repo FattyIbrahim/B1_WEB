@@ -1,17 +1,77 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TP3</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>Mon site</div>       
-        <a href="TP3_HTML/index.html"> Mon TP3</a>
-        <a href="TP4_HTML/tp4.html"> Mon TP4</a>
-    </body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes TPs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0080FF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .links a {
+            text-decoration: none;
+            background-color: #0080FF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+        .links a:hover {
+            background-color: #0080FF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur la page de mes TPs !</h1>
+    </header>
+
+    <main>
+        <p>Voici mes TPs :</p>
+        <div class="links">
+            <a href="TP3_HTML/index.html">Mon TP3</a>
+            <a href="TP4_HTML/tp4.html">Mon TP4</a>
+            <a href="TP6_HTML/index.html">Mon TP6</a>
+            <a href="TP7_HTML/index.html">Mon TP7</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; FattyIbrahim</p>
+    </footer>
+</body>
 </html>
